@@ -1,4 +1,4 @@
-# 🧩 Aladin-Pipeline
+# 🧩 Aladin-Review-Pipeline
 
 **알라딘 베스트셀러 리뷰 분석 자동화 파이프라인**  
 이 프로젝트는 주간 베스트셀러 데이터를 자동 수집·저장하고,  
