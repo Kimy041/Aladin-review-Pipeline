@@ -1,0 +1,10 @@
+matplotlib==3.10.3
+numpy==2.3.1
+opensearch-py==3.0.0
+pandas==2.3.0
+pymongo==4.13.2
+pyspark==3.4.4
+python-dotenv==1.1.1
+requests==2.31.0  # pip freeze 출력이 비표준이어서 최신 안정 버전으로 명시
+requests-toolbelt==1.0.0
+streamlit==1.46.1

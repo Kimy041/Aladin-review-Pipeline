@@ -1,0 +1,97 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+env/
+ENV/
+.ipynb_checkpoints/
+.DS_Store
+
+# =========================
+# Logs & Temp Files
+# =========================
+*.log
+*.tmp
+*.out
+*.err
+*.swp
+nohup.out
+
+# =========================
+# Hadoop / Spark
+# =========================
+# Hadoop temporary or runtime files
+hadoop/logs/
+hadoop/tmp/
+hadoop/data/
+dfs/name/
+dfs/data/
+namenode/
+datanode/
+
+# Spark checkpoints and event logs
+spark/eventLogs/
+spark/checkpoints/
+spark/logs/
+spark/work/
+
+# =========================
+# Airflow
+# =========================
+airflow/logs/
+airflow/tmp/
+airflow/unittests.cfg
+airflow/airflow.db
+airflow/.airflowenv
+airflow/__pycache__/
+
+# =========================
+# Grafana & OpenSearch
+# =========================
+grafana/data/
+grafana/logs/
+grafana/plugins/
+grafana/conf/provisioning/dashboards/*.json
+
+# =========================
+# MongoDB data / dumps
+# =========================
+dump/
+data/
+*.bson
+*.json
+*.csv
+
+# =========================
+# OS / IDE
+# =========================
+.DS_Store
+.idea/
+.vscode/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# =========================
+# Secrets / Configs (important)
+# =========================
+.env
+*.key
+*.pem
+*.crt
+*.cfg
+*.conf
+*.yml
+*.yaml
+
+# Allow anonymized configs only
+!hadoop/conf/*
+!spark/conf/*
+!grafana/README.md
+!VERSION
