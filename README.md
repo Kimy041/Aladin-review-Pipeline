@@ -15,7 +15,7 @@
 | 구분 | 내용 |
 |------|------|
 | **주요 기술** | Python, Airflow, Hadoop, Spark, MongoDB, OpenSearch, Grafana |
-| **데이터 소스** | 알라딘 주간 베스트셀러 & 네이버 리뷰 API |
+| **데이터 소스** | 알라딘 주간 베스트셀러 및 리뷰 데이터 |
 | **데이터 저장소** | MongoDB (Raw & Aggregated Data) |
 | **분석 대상** | 도서별 리뷰, 키워드, 주차별 트렌드 |
 | **결과 시각화** | OpenSearch Dashboard + Grafana + Streamlit |
